@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Grande',tahoma,verdana,arial,sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #edf0f5;
+}.container{               /*********Nav Bar*********/
+    width: 100%;
+    height: 16%;
+    background-color: #3b5998;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}.input-email input{           /*********Email input*********/
+    margin-top: 3px;
+ margin-bottom: 2px;
+ outline: none;
+ padding: 1px 0px;
+}.input-pass input{            /*********Password input*********/
+    margin-top: 3px;
+    margin-bottom: 5px;
+ padding: 1px 0px;
+
+ outline: none;
+}.inputs{                       /*********div of pass and email inputs*********/
+    position: relative;
+    top: 32px;
+    right: 60px;
+display: flex;
+}.input-email{                  /*********div of email input*********/
+    margin-right: 5px;
+}.email{
+color: #fff;
+font-size: 16px;
+}.check{
+color: #9daccb;
+font-size: 16px;
+}.input-pass{                   /*********div of password input*********/
+margin-left: 8px;
+}.input-pass p{
+color:#9daccb ;
+font-size: 16px;
+transition: 0.5s;
+}.input-pass p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}.pass{
+    color: #fff;
+font-size: 16px;
+}.logo h2{                       /*********logo facebook*********/
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 28px;
+}.log{                       /****Login Button***/     
+position: relative;
+padding: 1px 13px;
+background-color: #5b72a9;
+color: #fff;
+border: 1px solid #999;
+border-color: #8b9dc3 #2f477a #29447e #1a356e;
+cursor: pointer;
+font-weight: bold;
+text-align: center;
+transition: .5s;
+left:320px;
+bottom:16px;
+}.log:hover{
+    background-color:#5b72a996;
+}.content{
+    display: flex;
+justify-content: space-evenly;
+align-items: center; 
+margin-top: 40px;   
+}.text h3{
+    width: 409px;
+    padding: 42px 0 24px;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans',sans-serif;
+    text-rendering: optimizelegibility;
+    color: #333;
+    margin-bottom: 30px;
+}.text p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}.text span{
+    font-size: 15px;
+    color: #666;
+    margin-left: 10px;
+    font-weight: 500;
+}.signup h2{
+    font-family: 'Open Sans',sans-serif;
+    text-rendering: optimizelegibility;
+    color: #333;
+}.signup .free{
+    font-size: 19px;
+    margin-bottom: 20px;
+}.signup form input[type="text"]{
+    width: 185px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+   border:1px solid #bdc7d8 ;
+   margin-bottom: 10px;
+}.signup form input[type="text"]:focus{
+    border: 2px solid black;
+}.signup form input[type="email"]{
+    width: 377px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 10px;
+}.signup form input[type="email"]:focus{
+    border: 2px solid black;
+}.signup form input[type="password"]{
+    width: 377px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #bdc7d8;
+    margin-bottom: 10px;
+}.signup form input[type="password"]:focus{
+    border: 2px solid black;
+}.birthday{
+    font-size: 19px;
+    color: #141823;
+    margin-bottom: 5px;
+}.birth{
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    color: #141823;
+}.years{
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    color: #141823;
+}.Month{
+    height: 30px;
+    font-size: 13px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    color: #141823;
+}.why{
+    font-size: 12px;
+    color: #3b5998;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 10px;
+    transition: .5s;
+}.why:hover{
+text-decoration: underline;
+color: #29447e;
+}input[type="radio"]{
+margin-left: 8px;
+}select{
+    margin-bottom: 15px;
+}input[type="radio"]{
+    margin-bottom: 15px;
+}.by{
+    font-size: 11px;
+    width: 316px;
+    margin-bottom: 16px;
+}.data{
+    color:#29447e;
+    cursor: pointer;
+}.terms{
+    color: #1a356e;
+    cursor: pointer;
+}.sign-btn{
+width: 200px;
+padding: 7px 20px;
+background: linear-gradient(#67ae55, #578843);
+border: none;
+border-color: #3b6e22 #3b6e22 #2c5115;
+margin-bottom: 15px;
+text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+cursor: pointer;
+color: #fff;
+font-weight: bolder;
+border-radius: 5px;
+transition: .8s;
+}input[value="Sign Up"]:hover{
+   background:transparent;
+   border: 2px solid #2c5115;
+   color:#000;
+}.create{
+    border-top: 1px solid #a0a9c0;
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+    width: 100%;
+}
+.link{
+    cursor: pointer;
+    color:#1a356e;
+}
